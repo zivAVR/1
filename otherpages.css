@@ -16,36 +16,42 @@ html {
 body {}
 
 
+.rectangle {
+  height: 1000px;
+  width: 700px;
+  background-color: rgb(204, 204, 204);
+  position: absolute;
+  top: 200px;
+  left: 350px;
+  right: 350px;
+}
 
 .text p{
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-    font-size: 30px;
-    font-weight: 450; 
+    height: auto;
+    width: auto;
     position: absolute; 
-    top: 550px;
-    left: 50%;
-}
-
-.text #section1 p{
-    position: absolute; 
-    top: 550px;
-    left: 50%;
-}
-
-.text #section2 p{
-    position: absolute; 
-    top: 750px;
-    left: 50%;
+    top: 100px;
+    right: auto;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
 }
 
 .banner h1 {
-    font-size: 100px;
+    font-size: 75px;
     font-family: 'Amatic SC', cursive;
     position: absolute;
     top: 0px;
     left: 50%;
     text-shadow: 5px 5px rgb(128, 128, 128);
 }
+
+.banner p{
+    position: absolute;
+    top: 110px;
+    left: 15%;
+    font-size: 20px;
+}
+
 
 .menu-wrap {
     position: fixed;
